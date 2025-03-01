@@ -44,11 +44,14 @@ const PasswordCreator = () => {
     setPwds(pwdArr);
   }, []);
 
-  const copyToClipboard = (password) => {
+  const copyToClipboard = (event, password) => {
     navigator.clipboard
       .writeText(password)
       .then(() => {
+        const liElement = event.target.closest("li");
+        liElement.classList.add("copied");
         toast.success("Copied!");
+        setTimeout(() => liElement.classList.remove("copied"), 2000);
       })
       .catch((err) => {
         toast.error("Failed to copy");
@@ -124,7 +127,7 @@ const PasswordCreator = () => {
                       {pwds.map((pwd, index) => (
                         <li key={index}>
                           {pwd}
-                          <button onClick={() => copyToClipboard(pwd)}>
+                          <button onClick={(event) => copyToClipboard(event, pwd)}>
                             <LuCopy size={20} strokeWidth={1.5} />
                           </button>
                         </li>
