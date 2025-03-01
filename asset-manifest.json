@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-strong-password-generator/static/css/main.4f7e1391.css",
-    "main.js": "/react-strong-password-generator/static/js/main.33ce5f6c.js",
+    "main.css": "/react-strong-password-generator/static/css/main.eec40804.css",
+    "main.js": "/react-strong-password-generator/static/js/main.72a4603b.js",
     "static/js/453.db4a58f2.chunk.js": "/react-strong-password-generator/static/js/453.db4a58f2.chunk.js",
     "index.html": "/react-strong-password-generator/index.html",
-    "main.4f7e1391.css.map": "/react-strong-password-generator/static/css/main.4f7e1391.css.map",
-    "main.33ce5f6c.js.map": "/react-strong-password-generator/static/js/main.33ce5f6c.js.map",
+    "main.eec40804.css.map": "/react-strong-password-generator/static/css/main.eec40804.css.map",
+    "main.72a4603b.js.map": "/react-strong-password-generator/static/js/main.72a4603b.js.map",
     "453.db4a58f2.chunk.js.map": "/react-strong-password-generator/static/js/453.db4a58f2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4f7e1391.css",
-    "static/js/main.33ce5f6c.js"
+    "static/css/main.eec40804.css",
+    "static/js/main.72a4603b.js"
   ]
 }
