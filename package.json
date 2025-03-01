@@ -1,6 +1,7 @@
 {
   "name": "multi-tools-app",
   "version": "0.1.0",
+  "homepage": "https://gitname.github.io/react-strong-password-generator",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -21,6 +22,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
